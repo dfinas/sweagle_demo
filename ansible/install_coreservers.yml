@@ -1,0 +1,18 @@
+---
+- hosts: coreservers
+  tasks:
+    - name: Install jdk
+      package:
+        name: openjdk-8-jre-headless
+        state: present
+      become: true
+      become_user: root
+    - name: Check Java version
+      command: java -version
+      register: java_version
+      # Use the changed_when parameter so that this task doesn't appear as a changed status
+      changed_when: false
+    - name: Display java version
+      debug:
+        # Return just the first line of java -version
+        msg: "{{ java_version.stderr_lines[0] }}"
