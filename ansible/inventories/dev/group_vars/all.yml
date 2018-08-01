@@ -5,4 +5,3 @@ ansible_ssh_pass: dfinas
 
 ansible_become_pass: dfinas
 ansible_home_dir: /home/dfinas/Documents/sweagle_demo/ansible
-#ansible_python_interpreter: /usr/bin/python2.7
