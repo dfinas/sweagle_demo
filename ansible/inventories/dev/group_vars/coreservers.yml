@@ -37,7 +37,5 @@ tomcat_catalina_home_dir: /usr/share/tomcat8
 tomcat_catalina_base_dir: /var/lib/tomcat8
 tomcat_config_dir: /etc/tomcat8
 
-tomcat_service_name: 'tomcat8'
-
 tomcat_memory_size: 1024m
 tomcat_memory_permsize: 128m
