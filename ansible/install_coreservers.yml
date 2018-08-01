@@ -1,7 +1,7 @@
 ---
 - hosts: coreservers
   tasks:
-    - name: Install jdk
+    - name: Install jdk 1.8
       package:
         name: openjdk-8-jre-headless
         state: present
@@ -16,3 +16,13 @@
       debug:
         # Return just the first line of java -version
         msg: "{{ java_version.stderr_lines[0] }}"
+
+    - name: Install Tomcat 8 + Admin
+      package:
+        name: "{{ item }}"
+        state: present
+      with_items:
+        - tomcat8
+        - tomcat8-admin
+      become: true
+      become_user: root
