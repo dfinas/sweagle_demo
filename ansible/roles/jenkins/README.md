@@ -137,4 +137,5 @@ MIT (Expat) / BSD
 ## Author Information
 
 This role was created in 2014 by [Jeff Geerling](https://www.jeffgeerling.com/), author of [Ansible for DevOps](https://www.ansiblefordevops.com/).
-see also : https://github.com/geerlingguy/ansible-role-jenkins
+
+See also : https://github.com/geerlingguy/ansible-role-jenkins
