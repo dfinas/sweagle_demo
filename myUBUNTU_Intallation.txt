@@ -6,6 +6,7 @@ set user as administrator and no session login
 
 2/ Install VirtualBox Guest Additional tools
 - Set your VM to share copy/paste
+- Add one network interface with with private host network to be able to connect to your VM from Host
 
 
 ******************************************************
@@ -112,3 +113,4 @@ Add PlugIns: Ansible, Git, maven-plugin
 
 7/ Configure a local SMTP SERVER
 python -m smtpd -n -c DebuggingServer localhost:25
+of POSTFIX with local configuration ?
