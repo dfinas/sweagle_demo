@@ -9,3 +9,4 @@ jenkins_url_prefix: "/jenkins"
 
 jenkins_plugins:
   - Ansible
+  - Git

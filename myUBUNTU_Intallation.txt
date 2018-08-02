@@ -54,7 +54,7 @@ sudo apt-get install mysql-server
 (This is not a secure installation)
 
 Change the root password
-sudo mysql -u root -p 
+sudo mysql -u root -p
 (no password yet)
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
 (This will also change the password method to the native mySQL instead of auth_socket plug-in
@@ -69,7 +69,7 @@ systemctl status mysql.service
 ******				POSTE DEVELOPPEUR
 ******************************************************
 
-1/ Install Git 
+1/ Install Git
 sudo apt install git
 git config --global user.email "dfinas@gmail.com"
 
@@ -108,5 +108,4 @@ ansible --version
 Use ansible existing role
 https://github.com/geerlingguy/ansible-role-jenkins
 
-
-
+Add PlugIns: Ansible, Git
