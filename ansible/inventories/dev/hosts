@@ -1,4 +1,6 @@
 # file: dev servers
+[devservers]
+localhost
 
 [webservers]
 localhost

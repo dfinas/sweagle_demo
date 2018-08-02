@@ -1,0 +1,16 @@
+---
+# Install MYSQL
+    - name: Install mysql
+      package:
+        name: mysql
+        state: present
+      become: true
+      become_user: root
+      tags: mysql
+
+    - name: Check mysql service is running
+      service:
+        name: mysql
+        enabled: yes
+        state: started
+      tags: mysql
