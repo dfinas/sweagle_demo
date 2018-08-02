@@ -1,0 +1,112 @@
+My UBUNTU VM :
+
+1/ Install UBUNTU Desktop
+user/password : dfinas/dfinas
+set user as administrator and no session login
+
+2/ Install VirtualBox Guest Additional tools
+- Set your VM to share copy/paste
+
+
+******************************************************
+******				WEB SERVER
+******************************************************
+
+1/ Install Nginx
+https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-16-04
+sudo apt-get update
+sudo apt-get install nginx
+sudo ufw allow 'Nginx Full'
+
+test installation
+systemctl status nginx
+=> service should be active (running)
+Open firefox and login to http://localhost
+=> Welcome page of nginx should be displayed
+
+******************************************************
+******				CORE SERVER
+******************************************************
+1/ Install Tomcat
+sudo apt install openjdk-8-jre-headless
+
+test installation
+java -version
+=> should return the active jdk version 1.8.xxx
+
+sudo apt install tomcat8
+sudo apt install tomcat8-admin
+
+test installation
+go to page http://localhost:8080
+=> should return the tomcat default homepage (it works !)
+go to page http://localhost:8080/manager/html
+=> should return login to webadmin page
+
+
+******************************************************
+******				DB SERVER
+******************************************************
+1/ Install MySQL Server
+https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-16-04
+sudo apt-get update
+sudo apt-get install mysql-server
+(This is not a secure installation)
+
+Change the root password
+sudo mysql -u root -p 
+(no password yet)
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
+(This will also change the password method to the native mySQL instead of auth_socket plug-in
+cf. https://askubuntu.com/questions/766334/cant-login-as-mysql-user-root-from-normal-user-account-in-ubuntu-16-04)
+
+test installation
+systemctl status mysql.service
+=> service should be active (running)
+
+
+******************************************************
+******				POSTE DEVELOPPEUR
+******************************************************
+
+1/ Install Git 
+sudo apt install git
+git config --global user.email "dfinas@gmail.com"
+
+test your installation
+git --version
+=> Will give you your git release (me is 2.17.0)
+
+2/ Install Git Kraken (optional, just a simple git clone is necessary)
+- directly from ubuntu catalog
+- connect kraken to your github account
+- clone the repository https://github.com/dfinas/sweagle_demo.git to /home/dfinas/Documents
+(this will create a sweagle demo directory with your source code in /Documents)
+
+3/ Install Atom IDE
+- Directly from Ubuntu Application catalog (search for atom)
+- Open the project /home/dfinas/Documents/sweagle_demo
+- Atom should detect it is a git project and will ask you to connect to your github account, linking the project to your source code
+- install package language-ansible
+
+4/ Install MySQL Workbench
+- Directly from Ubuntu Application catalog (search for mysql)
+- If the store of your mySQL passwork doesn't work, launch mysql-workbench from terminal (./mysql-workbench) and test it
+
+5/ Install Ansible
+sudo apt install ssh
+# (this is to remove ansible errors when connecting to localhost on ssh)
+sudo apt install sshpass
+# (this is in order that ansible_ssh_pass parameter in Ansible works with system)
+sudo apt-get install ansible
+
+test installation
+ansible --version
+=> You should get your current ansible version (2.5.1 for me)
+
+6/ Install Jenkins
+Use ansible existing role
+https://github.com/geerlingguy/ansible-role-jenkins
+
+
+
