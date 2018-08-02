@@ -1,5 +1,0 @@
-# JVM package name.
-#For debian Jessie this will install OpenJDK 7
-#jvm_package: 'default-jdk'
-#For Ubuntu 16.04
-jvm_package: 'openjdk-8-jre-headless'
