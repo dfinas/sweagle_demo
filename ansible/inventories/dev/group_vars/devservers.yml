@@ -1,0 +1,6 @@
+---
+# Variables for DEV SERVERS only in DEV environment
+jenkins_admin_username: jenkins
+jenkins_admin_password: jenkins
+
+jenkins_http_port: 9090
