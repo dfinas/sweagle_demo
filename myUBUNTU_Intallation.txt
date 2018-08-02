@@ -108,4 +108,7 @@ ansible --version
 Use ansible existing role
 https://github.com/geerlingguy/ansible-role-jenkins
 
-Add PlugIns: Ansible, Git
+Add PlugIns: Ansible, Git, maven-plugin
+
+7/ Configure a local SMTP SERVER
+python -m smtpd -n -c DebuggingServer localhost:25
