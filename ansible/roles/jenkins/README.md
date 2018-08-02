@@ -115,7 +115,7 @@ Changes made to the Jenkins init script; the default set of changes set the conf
 
 ## Dependencies
 
-  - geerlingguy.java
+  - remove dependency from geerling.java (java must be installed before)
 
 ## Example Playbook
 
@@ -124,9 +124,7 @@ Changes made to the Jenkins init script; the default set of changes set the conf
   vars:
     jenkins_hostname: jenkins.example.com
   roles:
-    - role: geerlingguy.java
-      become: yes
-    - role: geerlingguy.jenkins
+    - role: jenkins
       become: yes
 ```
 

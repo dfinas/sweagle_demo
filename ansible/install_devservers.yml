@@ -2,3 +2,5 @@
 - hosts: devservers
   roles:
     - jenkins
+  become: true
+  become_user: root
