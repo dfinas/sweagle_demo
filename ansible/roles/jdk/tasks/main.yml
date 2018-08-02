@@ -6,17 +6,17 @@
       state: present
     become: true
     become_user: root
-    tag: jdk
+    tags: jdk
 
   - name: Check Java version
     command: java -version
     register: java_version
     # Use the changed_when parameter so that this task doesn't appear as a changed status
     changed_when: false
-    tag: jdk
+    tags: jdk
 
   - name: Display java version
     debug:
       # Return just the first line of java -version
       msg: "{{ java_version.stderr_lines[0] }}"
-    tag: jdk
+    tags: jdk
