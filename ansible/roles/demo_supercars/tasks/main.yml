@@ -1,36 +1,7 @@
 ---
-# Create supercars user and schema
-# The task below is required to use mysql ansible tasks
-    - name: Install python mysql package
-      package:
-        name: python-mysqldb
-        state: present
-      become: true
-      become_user: root
-      tags: mysql
 
-#    - name: Create supercars schema
-#      mysql_db:
-#        name: supercars
-#        state: present
+    - include: supercars_db_install.yml
+      when: "inventory_hostname in groups.dbservers"
 
-    - name: Add supercars user
-      mysql_user:
-        login_port: "{{ mysql_port }}"
-        login_user: "{{ mysql_password }}"
-        login_password: "{{ mysql_user }}"
-        name: "{{ mysql_supercars_user }}"
-        password: "{{ mysql_supercars_password }}"
-        priv: '*.*:ALL'
-        state: present
-      tags: supercars, mysql
-
-    - name: Create supercar tables
-      mysql_db:
-        login_port: "{{ mysql_port }}"
-        login_user: "{{ mysql_supercars_user }}"
-        login_password: "{{ mysql_supercars_password }}"
-        state: import
-        name: all
-        target: "{{ mysql_supercars_install_script }}"
-      tags: supercars, mysql
+    - include: supercars_core_install.yml
+      when: "inventory_hostname in groups.coreservers"
