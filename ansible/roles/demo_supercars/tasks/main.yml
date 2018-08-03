@@ -5,3 +5,6 @@
 
     - include: supercars_core_install.yml
       when: "inventory_hostname in groups.coreservers"
+
+    - include: supercars_dev_install.yml
+      when: "inventory_hostname in groups.devservers"
