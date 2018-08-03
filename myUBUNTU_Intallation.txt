@@ -29,7 +29,7 @@ Open firefox and login to http://localhost
 ******				CORE SERVER
 ******************************************************
 1/ Install Tomcat
-sudo apt install openjdk-8-jre-headless
+sudo apt install openjdk-8-jdk
 
 test installation
 java -version
