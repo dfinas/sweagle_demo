@@ -1,0 +1,60 @@
+2018-08-09 15:24:42 INFOS com.sweagl.Main main : Starting Data Loader - 2018-08-09 15:24:42
+2018-08-09 15:24:43 AVERTISSEMENT com.sweagl.util.VersionChecker compareVersionWithHost : Data Loader version (2.16.0) does not match with Sweagl host server (2.18.0-SNAPSHOT)
+2018-08-09 15:24:44 INFOS com.sweagl.Main main : Tenant found: 'dfinas'
+2018-08-09 15:24:44 INFOS com.sweagl.load.Loader load : Loading ...
+2018-08-09 15:24:44 INFOS com.sweagl.load.Loader loadSourceIntoSweagl : Found valid file:
+1 - file:/home/dfinas/Documents/sweagle_demo/./ansible.roles.demo_supercars.vars.main.yml
+2018-08-09 15:24:45 INFOS com.sweagl.load.Loader lambda$loadAndApprove$5 : 1 - file loaded & approved: ansible.roles.demo_supercars.vars.main.yml
+2018-08-09 15:24:45 INFOS com.sweagl.load.Loader load : 1 file loaded in 1408ms
+2018-08-09 15:24:46 INFOS com.sweagl.load.Loader load : Loading finished
+2018-08-09 15:24:46 INFOS com.sweagl.Main close : --- end of session ---
+
+
+2018-08-09 15:24:46 INFOS com.sweagl.Main main : Starting Data Loader - 2018-08-09 15:24:46
+2018-08-09 15:24:47 AVERTISSEMENT com.sweagl.util.VersionChecker compareVersionWithHost : Data Loader version (2.16.0) does not match with Sweagl host server (2.18.0-SNAPSHOT)
+2018-08-09 15:24:48 INFOS com.sweagl.Main main : Tenant found: 'dfinas'
+2018-08-09 15:24:48 INFOS com.sweagl.load.Loader load : Loading ...
+2018-08-09 15:24:48 INFOS com.sweagl.load.Loader loadSourceIntoSweagl : Found valid file:
+1 - file:/home/dfinas/Documents/sweagle_demo/./ansible.roles.tomcat.vars.main.yml
+2018-08-09 15:24:49 INFOS com.sweagl.Main main : Starting Data Loader - 2018-08-09 15:24:49
+2018-08-09 15:24:51 AVERTISSEMENT com.sweagl.util.VersionChecker compareVersionWithHost : Data Loader version (2.16.0) does not match with Sweagl host server (2.18.0-SNAPSHOT)
+2018-08-09 15:24:52 INFOS com.sweagl.Main main : Tenant found: 'dfinas'
+2018-08-09 15:24:52 INFOS com.sweagl.load.Loader load : Loading ...
+2018-08-09 15:24:52 INFOS com.sweagl.load.Loader loadSourceIntoSweagl : Found valid file:
+1 - file:/home/dfinas/Documents/sweagle_demo/./ansible.roles.mysql.vars.main.yml
+2018-08-09 15:24:53 INFOS com.sweagl.Main main : Starting Data Loader - 2018-08-09 15:24:53
+2018-08-09 15:24:55 AVERTISSEMENT com.sweagl.util.VersionChecker compareVersionWithHost : Data Loader version (2.16.0) does not match with Sweagl host server (2.18.0-SNAPSHOT)
+2018-08-09 15:24:55 INFOS com.sweagl.Main main : Tenant found: 'dfinas'
+2018-08-09 15:24:55 INFOS com.sweagl.load.Loader load : Loading ...
+2018-08-09 15:24:55 INFOS com.sweagl.load.Loader loadSourceIntoSweagl : Found valid file:
+1 - file:/home/dfinas/Documents/sweagle_demo/./ansible.roles.jenkins.vars.RedHat.yml
+2018-08-09 15:24:57 INFOS com.sweagl.Main main : Starting Data Loader - 2018-08-09 15:24:57
+2018-08-09 15:24:58 AVERTISSEMENT com.sweagl.util.VersionChecker compareVersionWithHost : Data Loader version (2.16.0) does not match with Sweagl host server (2.18.0-SNAPSHOT)
+2018-08-09 15:24:58 INFOS com.sweagl.Main main : Tenant found: 'dfinas'
+2018-08-09 15:24:59 INFOS com.sweagl.load.Loader load : Loading ...
+2018-08-09 15:24:59 INFOS com.sweagl.load.Loader loadSourceIntoSweagl : Found valid file:
+1 - file:/home/dfinas/Documents/sweagle_demo/./ansible.roles.jenkins.vars.Debian.yml
+2018-08-09 15:25:00 INFOS com.sweagl.Main main : Starting Data Loader - 2018-08-09 15:25:00
+2018-08-09 15:25:02 AVERTISSEMENT com.sweagl.util.VersionChecker compareVersionWithHost : Data Loader version (2.16.0) does not match with Sweagl host server (2.18.0-SNAPSHOT)
+2018-08-09 15:25:02 INFOS com.sweagl.Main main : Tenant found: 'dfinas'
+2018-08-09 15:25:02 INFOS com.sweagl.load.Loader load : Loading ...
+2018-08-09 15:25:02 INFOS com.sweagl.load.Loader loadSourceIntoSweagl : Found valid file:
+1 - file:/home/dfinas/Documents/sweagle_demo/./ansible.inventories.dev.group_vars.all.yml
+2018-08-09 15:25:04 INFOS com.sweagl.Main main : Starting Data Loader - 2018-08-09 15:25:04
+2018-08-09 15:25:05 AVERTISSEMENT com.sweagl.util.VersionChecker compareVersionWithHost : Data Loader version (2.16.0) does not match with Sweagl host server (2.18.0-SNAPSHOT)
+2018-08-09 15:25:06 INFOS com.sweagl.Main main : Tenant found: 'dfinas'
+2018-08-09 15:25:06 INFOS com.sweagl.load.Loader load : Loading ...
+2018-08-09 15:25:06 INFOS com.sweagl.load.Loader loadSourceIntoSweagl : Found valid file:
+1 - file:/home/dfinas/Documents/sweagle_demo/./ansible.inventories.dev.group_vars.dbservers.yml
+2018-08-09 15:25:08 INFOS com.sweagl.Main main : Starting Data Loader - 2018-08-09 15:25:08
+2018-08-09 15:25:10 AVERTISSEMENT com.sweagl.util.VersionChecker compareVersionWithHost : Data Loader version (2.16.0) does not match with Sweagl host server (2.18.0-SNAPSHOT)
+2018-08-09 15:25:11 INFOS com.sweagl.Main main : Tenant found: 'dfinas'
+2018-08-09 15:25:11 INFOS com.sweagl.load.Loader load : Loading ...
+2018-08-09 15:25:11 INFOS com.sweagl.load.Loader loadSourceIntoSweagl : Found valid file:
+1 - file:/home/dfinas/Documents/sweagle_demo/./ansible.inventories.dev.group_vars.coreservers.yml
+2018-08-09 15:25:12 INFOS com.sweagl.Main main : Starting Data Loader - 2018-08-09 15:25:12
+2018-08-09 15:25:14 AVERTISSEMENT com.sweagl.util.VersionChecker compareVersionWithHost : Data Loader version (2.16.0) does not match with Sweagl host server (2.18.0-SNAPSHOT)
+2018-08-09 15:25:14 INFOS com.sweagl.Main main : Tenant found: 'dfinas'
+2018-08-09 15:25:14 INFOS com.sweagl.load.Loader load : Loading ...
+2018-08-09 15:25:14 INFOS com.sweagl.load.Loader loadSourceIntoSweagl : Found valid file:
+1 - file:/home/dfinas/Documents/sweagle_demo/./ansible.inventories.dev.group_vars.devservers.yml
