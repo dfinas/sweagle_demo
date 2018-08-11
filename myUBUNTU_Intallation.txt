@@ -74,6 +74,8 @@ systemctl status mysql.service
 sudo apt install git
 git config --global user.email "dfinas@gmail.com"
 
+On windows, download git from git-scm.com/download/win
+
 test your installation
 git --version
 => Will give you your git release (me is 2.17.0)
