@@ -67,14 +67,14 @@ systemctl status mysql.service
 
 
 ******************************************************
-******				POSTE DEVELOPPEUR
+******				DEV PC/SERVER
 ******************************************************
 
 1/ Install Git
 sudo apt install git
-git config --global user.email "dfinas@gmail.com"
-
 On windows, download git from git-scm.com/download/win
+Then define your git user:
+git config --global user.email "dfinas@gmail.com"
 
 test your installation
 git --version
