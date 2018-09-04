@@ -13,7 +13,7 @@ do
   cp "$f" "$tempfile"
   #java -jar /opt/SWEAGLE/DataLoader.jar \
   #  --host https://testing.sweagle.com \
-  #  --auth dfinas_testing:testtest \
+  #  --auth dfinas_testing:$YOUR_SWEAGLE_PASWWORD \
   #  --autoApprove false \
   #  -s $tempfile
 
