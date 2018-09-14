@@ -1,0 +1,75 @@
+2018-08-09 15:54:06 INFOS com.sweagl.Main main : Starting Data Loader - 2018-08-09 15:54:06
+2018-08-09 15:54:08 AVERTISSEMENT com.sweagl.util.VersionChecker compareVersionWithHost : Data Loader version (2.16.0) does not match with Sweagl host server (2.18.0-SNAPSHOT)
+2018-08-09 15:54:08 INFOS com.sweagl.Main main : Tenant found: 'dfinas'
+2018-08-09 15:54:08 INFOS com.sweagl.load.Loader load : Loading ...
+2018-08-09 15:54:08 INFOS com.sweagl.load.Loader loadSourceIntoSweagl : Found valid file:
+1 - file:/home/dfinas/Documents/sweagle_demo/sweagle/temp/ansible.roles.demo_supercars.vars.main.yml
+2018-08-09 15:54:10 INFOS com.sweagl.load.Loader lambda$loadAndApprove$5 : 1 - file loaded & approved: ansible.roles.demo_supercars.vars.main.yml
+2018-08-09 15:54:10 INFOS com.sweagl.load.Loader load : 1 file loaded in 1440ms
+2018-08-09 15:54:10 INFOS com.sweagl.load.Loader load : Loading finished
+2018-08-09 15:54:10 INFOS com.sweagl.Main close : --- end of session ---
+
+
+2018-08-09 16:17:58 INFOS com.sweagl.Main main : Starting Data Loader - 2018-08-09 16:17:58
+2018-08-09 16:18:00 AVERTISSEMENT com.sweagl.util.VersionChecker compareVersionWithHost : Data Loader version (2.16.0) does not match with Sweagl host server (2.18.0-SNAPSHOT)
+2018-08-09 16:18:02 INFOS com.sweagl.Main main : Tenant found: 'dfinas'
+2018-08-09 16:18:02 INFOS com.sweagl.load.Loader load : Loading ...
+2018-08-09 16:18:02 INFOS com.sweagl.load.Loader loadSourceIntoSweagl : Found valid file:
+1 - file:/home/dfinas/Documents/sweagle_demo/sweagle/temp/ansible.roles.demo_supercars.vars.main.yml
+2018-08-09 16:18:06 INFOS com.sweagl.load.Loader lambda$loadAndApprove$5 : 1 - file loaded & approved: ansible.roles.demo_supercars.vars.main.yml
+2018-08-09 16:18:06 INFOS com.sweagl.load.Loader load : 1 file loaded in 3781ms
+2018-08-09 16:18:06 INFOS com.sweagl.load.Loader load : Loading finished
+2018-08-09 16:18:06 INFOS com.sweagl.Main close : --- end of session ---
+
+
+2018-08-09 16:18:17 INFOS com.sweagl.Main main : Starting Data Loader - 2018-08-09 16:18:17
+2018-08-09 16:18:19 AVERTISSEMENT com.sweagl.util.VersionChecker compareVersionWithHost : Data Loader version (2.16.0) does not match with Sweagl host server (2.18.0-SNAPSHOT)
+2018-08-09 16:18:21 INFOS com.sweagl.Main main : Tenant found: 'dfinas'
+2018-08-09 16:18:57 INFOS com.sweagl.Main main : Starting Data Loader - 2018-08-09 16:18:57
+2018-08-09 16:19:02 AVERTISSEMENT com.sweagl.util.VersionChecker compareVersionWithHost : Data Loader version (2.16.0) does not match with Sweagl host server (2.18.0-SNAPSHOT)
+2018-08-09 16:19:06 INFOS com.sweagl.Main main : Tenant found: 'dfinas'
+2018-08-09 16:19:06 INFOS com.sweagl.load.Loader load : Loading ...
+2018-08-09 16:19:06 INFOS com.sweagl.load.Loader loadSourceIntoSweagl : Found valid file:
+1 - file:/home/dfinas/Documents/sweagle_demo/sweagle/temp/ansible.roles.tomcat.vars.main.yml
+2018-08-09 16:19:08 INFOS com.sweagl.load.Loader lambda$loadAndApprove$5 : 1 - file loaded & approved: ansible.roles.tomcat.vars.main.yml
+2018-08-09 16:19:08 INFOS com.sweagl.load.Loader load : 1 file loaded in 1340ms
+2018-08-09 16:19:08 INFOS com.sweagl.load.Loader load : Loading finished
+2018-08-09 16:19:08 INFOS com.sweagl.Main close : --- end of session ---
+
+
+2018-08-09 16:19:23 INFOS com.sweagl.Main main : Starting Data Loader - 2018-08-09 16:19:23
+2018-08-09 16:19:29 AVERTISSEMENT com.sweagl.util.VersionChecker compareVersionWithHost : Data Loader version (2.16.0) does not match with Sweagl host server (2.18.0-SNAPSHOT)
+2018-08-09 16:19:32 INFOS com.sweagl.Main main : Tenant found: 'dfinas'
+2018-08-09 16:19:32 INFOS com.sweagl.load.Loader load : Loading ...
+2018-08-09 16:19:32 INFOS com.sweagl.load.Loader loadSourceIntoSweagl : Found valid file:
+1 - file:/home/dfinas/Documents/sweagle_demo/sweagle/temp/ansible.roles.mysql.vars.main.yml
+2018-08-09 16:19:35 INFOS com.sweagl.load.Loader lambda$loadAndApprove$5 : 1 - file loaded & approved: ansible.roles.mysql.vars.main.yml
+2018-08-09 16:19:35 INFOS com.sweagl.load.Loader load : 1 file loaded in 3061ms
+2018-08-09 16:19:35 INFOS com.sweagl.load.Loader load : Loading finished
+2018-08-09 16:19:35 INFOS com.sweagl.Main close : --- end of session ---
+
+
+2018-08-09 16:23:25 INFOS com.sweagl.Main main : Starting Data Loader - 2018-08-09 16:23:25
+2018-08-09 16:23:27 AVERTISSEMENT com.sweagl.util.VersionChecker compareVersionWithHost : Data Loader version (2.16.0) does not match with Sweagl host server (2.18.0-SNAPSHOT)
+2018-08-09 16:23:29 INFOS com.sweagl.Main main : Tenant found: 'dfinas'
+2018-08-09 16:23:29 INFOS com.sweagl.load.Loader load : Loading ...
+2018-08-09 16:23:29 INFOS com.sweagl.load.Loader loadSourceIntoSweagl : Found valid file:
+1 - file:/home/dfinas/Documents/sweagle_demo/sweagle/temp/ansible.roles.tomcat.vars.main.yml
+2018-08-09 16:23:32 INFOS com.sweagl.load.Loader lambda$loadAndApprove$5 : 1 - file loaded & approved: ansible.roles.tomcat.vars.main.yml
+2018-08-09 16:23:32 INFOS com.sweagl.load.Loader load : 1 file loaded in 3174ms
+2018-08-09 16:23:32 INFOS com.sweagl.load.Loader load : Loading finished
+2018-08-09 16:23:32 INFOS com.sweagl.Main close : --- end of session ---
+
+
+2018-08-09 16:26:13 INFOS com.sweagl.Main main : Starting Data Loader - 2018-08-09 16:26:13
+2018-08-09 16:26:18 AVERTISSEMENT com.sweagl.util.VersionChecker compareVersionWithHost : Data Loader version (2.16.0) does not match with Sweagl host server (2.18.0-SNAPSHOT)
+2018-08-09 16:26:18 INFOS com.sweagl.Main main : Tenant found: 'dfinas'
+2018-08-09 16:26:18 INFOS com.sweagl.load.Loader load : Loading ...
+2018-08-09 16:26:18 INFOS com.sweagl.load.Loader loadSourceIntoSweagl : Found valid file:
+1 - file:/home/dfinas/Documents/sweagle_demo/sweagle/temp/ansible.roles.tomcat.vars.main.yml
+2018-08-09 16:26:20 INFOS com.sweagl.load.Loader lambda$loadAndApprove$5 : 1 - file loaded & approved: ansible.roles.tomcat.vars.main.yml
+2018-08-09 16:26:20 INFOS com.sweagl.load.Loader load : 1 file loaded in 1194ms
+2018-08-09 16:26:20 INFOS com.sweagl.load.Loader load : Loading finished
+2018-08-09 16:26:20 INFOS com.sweagl.Main close : --- end of session ---
+
+
