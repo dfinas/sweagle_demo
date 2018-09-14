@@ -91,6 +91,7 @@ git --version
 - Open the project /home/dfinas/Documents/sweagle_demo
 - Atom should detect it is a git project and will ask you to connect to your github account, linking the project to your source code
 - install package language-ansible
+- install package language-powershell
 
 4/ Install MySQL Workbench
 - Directly from Ubuntu Application catalog (search for mysql)
